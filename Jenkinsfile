@@ -9,7 +9,7 @@ pipeline {
             agent any
             steps{
 
-                git branch: 'master', url:'https://github.com/AymenFtiti1992/devopsProject.git'
+                git branch: 'main', url:'https://github.com/AymenFtiti1992/devopsProject.git'
             }
         }
         stage('Init'){
