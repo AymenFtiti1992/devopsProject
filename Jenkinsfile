@@ -22,7 +22,6 @@ pipeline {
             steps {
 
                 sh 'docker build -t aymenftiti/springboot-app:jdk-17:$BUILD_ID -f ./Dockerfile .'
-                //sh 'docker build -t $DOCKERHUB_CREDENTIALS_USR/calculator-app:$BUILD_ID'
             }
         }
         stage('Deliver'){
